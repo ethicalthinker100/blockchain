@@ -12,8 +12,8 @@ This is a Solidity smart contract that implements a basic token called MyToken (
 
 ## Usage
 
-1. tokenName: A public variable that represents the name of the token. In this contract, it is set to "ALMA".
-2. tokenAbbrv: A public variable that represents the abbreviation of the token. In this contract, it is set to "ATA".
+1. tokenName: A public variable that represents the name of the token. In this contract, it is set to "ALMATOKEN".
+2. tokenAbbrv: A public variable that represents the abbreviation of the token. In this contract, it is set to "ATK".
 3. totalSupply: A public variable that stores the total supply of the token. Initially set to 0, it increases when tokens are minted and decreases when tokens are burned.
 4. balances: A mapping that associates addresses with token balances. Each address's balance is stored as a positive integer.
 5. mint: A function that mints new tokens. It takes an address (_address) and a value (_value) as parameters. It increases the total supply by the specified value and adds that value to the balance of the specified address.
